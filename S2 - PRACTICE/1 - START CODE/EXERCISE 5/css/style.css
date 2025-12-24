@@ -1,9 +1,16 @@
 .container {
-    width: 40%;
-    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
     margin-top: 80px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
     float: left;
     margin-left: 100px;
+}
+.row, .column {
+    width: 45%;
 }
 input {
     margin-top: 10px;

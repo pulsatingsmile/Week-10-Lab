@@ -12,7 +12,8 @@
     <div class="container">
       <div class="row">
         <form action="#">
-          Task: <input type="text" id="description" />
+          Task:
+          <input type="text" id="description" placeholder="Enter task..." />
           <br />
           <br />
           Priority:
@@ -20,10 +21,19 @@
             <option value="High">High</option>
             <option value="Low">Low</option>
           </select>
-          <br />
-          <br />
+          <br /><br />
           <button id="addButton" type="button">Add task</button>
         </form>
+        <br /><br />
+        <button id="btnFilterHigh">Show only the important tasks</button>
+        <br /><br />
+        <button id="btnFilterLow">Show the tasks that are not important</button
+        ><br /><br />
+        <button id="btnFilterAll">Show all the tasks</button>
+      </div>
+      <div class="column">
+        <div id="taskList">
+            </div>
       </div>
     </div>
   </body>
